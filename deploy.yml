@@ -1,0 +1,12 @@
+Description: >
+    Lloyd Tapfuma / Udacity
+    this is a script to deploy VPV in cloud formation
+Resources:
+    MyVPC:
+      Type: AWS::EC2::VPC
+      Properties: 
+      CidrBlock: 10.0.0.0/16
+        EnableDnsHostnames: True
+        EnableDnsSupport: Boolean
+        InstanceTenancy: String
+  
